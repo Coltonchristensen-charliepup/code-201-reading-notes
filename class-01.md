@@ -1,4 +1,5 @@
-INTRODUCTION: Goes over how HTML & CSS work. Along with helping you understand that you don't have to be a genius to read, write, and explain how it all works.
+INTRODUCTION:
+Goes over how HTML & CSS work. Along with helping you understand that you don't have to be a genius to read, write, and explain how it all works.
 For instense Html is the structure of the page, <Head>, <titles>, <body>, <h1> and so forth are all examples of things on a web page. So what do some of these things do?
 Well for instense the <head> indicates the begining of your page <title> follows underneath it to give you the file name and or page name although you wont be able to see these things on a web page they typically reside in the url. The header is the first thing on a webpage it is what greates you unless you have a <script> on your page then that is what you will see first!
   
@@ -8,7 +9,8 @@ Well for instense the <head> indicates the begining of your page <title> follows
   c. helps define a dogs body.
   d. none of the above.
   
- STRUCTURE: This chapter goes over about, tags and elements. Headings and Subheadings in any document often show the importance of the content. 
+ STRUCTURE:
+ This chapter goes over about, tags and elements. Headings and Subheadings in any document often show the importance of the content. 
 Which is expanded by subheadings lower on the page, usually followed by a paragraph that explains each topic. code example that will help you understand your webpage format.
 <html>
   <body>
