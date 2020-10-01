@@ -29,7 +29,7 @@ Which is expanded by subheadings lower on the page, usually followed by a paragr
   </body>
 </html>```
 
-The html code inside the angled brackets are called elements. Elements are typically made up of two tags a opening and a closing tag (<this opens></this closes>). Although what i have put inside my open and closing tags are not actual elements i put them there as a reference for users to remember the order of there opening and closing tags.
+>The html code inside the angled brackets are called elements. Elements are typically made up of two tags a opening and a closing tag (<this opens></this closes>). Although what i have put inside my open and closing tags are not actual elements i put them there as a reference for users to remember the order of there opening and closing tags.
 
 Quiz question: When you open and close a tag where does the information go?
 a: before the tags
@@ -39,13 +39,13 @@ D: none of the above.
 
 > Attributes provide aiddtional information about the contents of a element. They are located in the opening tag of the element and are made up of two parts: name and a value seperated by a equals sign(=). <p lang="en-us">Paragraph in English</p> if you change it to <p lang="fr">Paragraph en Francais</p>. majority of attribues can only appear in certain elements, although a couple can appear on any element such as (lang).
 
-CHAPTER 8 Extra Markup:
+> CHAPTER 8 Extra Markup:
 There are different types of html:
-*Html 4 released in 1997
-*Xhtml 1.0 released in 2000
-*Html 5 work in progress
+* Html 4 released in 1997
+* Xhtml 1.0 released in 2000
+* Html 5 work in progress
 
-Ever since the web was created there have been several different verions of html. Each different version was designed to be an improvement. Seeing how there are many different types of you should always start your web page with a DOCTYPE declaration to tell the browser which version of HTML the page is using. 
+>Ever since the web was created there have been several different verions of html. Each different version was designed to be an improvement. Seeing how there are many different types of you should always start your web page with a DOCTYPE declaration to tell the browser which version of HTML the page is using. 
 HTML5: <!DOCTYPE html>
 HTML 4: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
