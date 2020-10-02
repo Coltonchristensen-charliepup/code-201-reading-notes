@@ -3,7 +3,7 @@
 # **Table of contents**
 - [html&javascript](class-01.md)
 - [HTML Text, CSS Introduction, and Basic JavaScript Instructions](class-02.md)
-- [reading 03]
+- [lists css boxes& js control flow](class-03.md)
 - [reading 04]
 - [reading 05]
 - [reading 06]
