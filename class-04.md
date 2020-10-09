@@ -122,7 +122,7 @@
 
     > Overlapping Elements(z-index)
 
-    - - Css:
+    * Css:
 
       h1 {
       position: fixed;
@@ -140,11 +140,13 @@
   > Floating elements(float)
 
   * html 
+ 
   `<body>`
       `<h1>The evolution ofthe bicycle</h1>`
       `<blockquote>"Life is like riding a bicycle. To keep your balance you must keep moving." Albert Einstein</blockquotes>`
       `<p class="example">In 1817 Baron Von Drais invented a walking maching that would help him get around the royal gardens faster: two same-size in-line wheels, the front one steerable, mounted in a frame...</p>`
     `</body>`
+ 
   * css
   blockquote {
     float: right;
@@ -160,6 +162,7 @@
 # **Chapter 3 Functions, Methods, and Objects**
 
   > A Basic Function
+  
   * Html 
   `<!Doctype html>`
   `<html>`
@@ -182,4 +185,3 @@
   `}`
   `updateMessage();`
 
-  
