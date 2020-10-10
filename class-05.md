@@ -65,4 +65,99 @@
 
 
 
+# **Chapter 12**:
+
+  > *TEXT*:
+
+  * Specifying typefaces(font-family): The font-family property allows you to specify the typeface that should be used for any text inside the element(s) to which a CSS rule applies.
+
+    * Example: `<!DOCTYPE html>`
+                  `<html>`
+                    `<head`>
+                      `<title>font family</title>`
+                      `<style type="text/css">`
+                        `body {`
+                          `font-family: Gorgia, Times, serif;}`
+                        `h1, h2 {`
+                          `font-family: Arial, Verdana, sans-serif;}`
+                        `.credits {`
+                          `font-family: "Courier New", Courier, monospace;}`
+                      `</style>`
+                    `</head>`
+                    `<body>`
+                      `<h1>Briards</h1>`
+                      `<p class="credits">by Ivy Duckett</p>`
+                      `<p class="inro">The <a class="breed" href="http://en.wikipedia.org/wiki/Briard">briard</a>, or berger de brie, is a large breed of dog traditionally used as a herder and guardian of sheep...</p>`
+                    `</body>`
+                  `</html>`
+
   
+  * SIZE OF TYPE(font-size): This enables you to specify a size for the font. There are several ways to specify the size of a font.
+
+    * Examples:
+
+      * PIXLES: commonly used because they allow web designers very precise control over how much space their text taxes up. The number of pixles is followed by the letters px.
+
+      * PERCENTAGES: The default size of text in browsers is 16px. So a size of 75% would be equivalent of 12px, and 200% would be 32px.
+
+      * EMS: An em is equivalent to the width of a letter m.
+
+      * More font choices(@font-face): Which this allows you to use fonts even if they aren't installed on the computer of the person browsing.
+
+      * Understanding font formats: Different browsers support different formats for fonts(in the same way that they support different audio and video formats, so you will need to supply the font in several variations to reach all browsers.
+
+      * BOLD(font-weight): The font-weight property allows you to create bold text. There are two values that this property commonly takes: 
+
+        * normal: this causes text to appear at a normal weight.
+
+        * bold: This causes text to appear bold.
+
+      * ITALIC(font-style): If you want to create italic text, you can use the font-style property. There are three values this property can take: 
+
+        * Normal: This causes text to appear in a normal style(as opposed to italic or oblique).
+
+        * Italic: This causes text to appear italic.
+
+        * Oblique: This causes text to appear oblique.
+
+      * UPPERCASE & LOWERCASE(text-transform):
+
+          * text-transform: uppercase; will uppercase your text
+
+          * text-transform: lowercase; will lowercase your text
+
+          * text-transform: capitalize; will cause the first letter of each word to appear capitalized.
+
+      * UNDERLINE & STRIKE(text-decoration):
+
+        * text-decoration: none; removes an decoration that has already been applied
+
+        * text-decoration: underline; add a underline
+
+        * text-decoration: overline; adds a line over the top
+
+        * text-decoration: line-through; adds a line through words
+
+        * text-decoration: blink; this animates the text to make it flash on and off(however this is generally frowned uppon, as its considered annoying).
+
+      * LEADING(line-height): p{ line-height: 1.4em;} This is generally used as a term for the vertical space between lines of text.
+
+      * LETTER & WORD SPACING(letter-spacing, word-spacing): Typographers use for the space between each letter. h1, h2{text-transform: uppercase; letter-spacing: 0.2em;}
+      .credits {
+        font-weight: bold;
+        word-spacing: 1em;}
+
+        * text-align:(left, right, center, justify)
+
+        * vertical-algin:(baseline, sub, super, top, text-stop, middle, bottom, text-bottom).
+
+        * text-indent: 20px; That is a example of which it allows you to properly indent your text.
+
+        * text-shadow: 
+        p.one{
+          background-color: #eeeeee;
+          text-shadow: 1 1 0 #000000;}
+          
+          * This is used to create a drop shadow, which is a dark version of the word just behind it and slightly offset.
+
+          
