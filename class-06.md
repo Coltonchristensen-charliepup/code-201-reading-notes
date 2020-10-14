@@ -93,4 +93,32 @@
 
       * getElementsByClassName('hot'): this NodeList contains only three of the `<li>` elements becasue we are searching for elements by the value of their class attribute, not tag name.
 
-      * querySelectorAll(li[id]): thsi method returns four elements, one for each of the `<li>` elements on the page that have an id attribute(regardless of the values of the id attributes.)
+      * querySelectorAll(li[id]): thsi method returns four elements, one for each of the `<li>` elements on the page that have an id attribute(regardless of the values of the id attributes).
+
+    > SELECTING ELEMENTS USING CLASS ATTRIBUTES: The getElementsByClassName() method allows you to select elements whose class attribute contains a specific value. 
+
+      * Example: var elements = document.getElementsByClassName('hot');
+
+      if (elements.length > 2) {
+        
+        var el = elements[2];
+        el.className = 'cool';
+
+      }
+
+    > SELECTING ELEMENTS BY TAG NAME: The getElementsByTagName() method allows you to select elements using their tag name. 
+
+      * var elements = document.getElementsByTagName('li');
+        if (elements.length > 0) {
+          var el = elements[0];
+          el.className = 'cool';
+        }  
+
+    > SELECTING ELEMENTS USING CSS SELECTORS: querySelector(), returns the forst element node that matches the CSS-style selector.
+
+      * Example: 
+      var el = document.querySelector('li.hot');
+      el.className = 'cool';
+
+      var els = document.querySelectorAll('li.hot');
+      els[1].className = 'cool';
