@@ -117,4 +117,73 @@
 
   > Creating objects using constructor syntax:
 
-  * In the example there is a empty object using the constructor function. Once it has been created, three properties and a method are then assigned to the object. To access a pro 
+  * In the example there is a empty object using the constructor function. Once it has been created, three properties and a method are then assigned to the object. To access a property of this object, you can use dot notation, just as you can with any object. for example, to get the hotel's name you could use : `hotel.name`
+
+    * Example:
+
+    var hotel = new Object;
+
+    hotel.name = 'Park';
+    hotel.rooms = 120; 
+    hotel.booked = 77; 
+    hotel.checkAvaliablity = function() {
+      return this.rooms - this.booked;
+    };
+
+    var elName  document.getElementById('hotelName');
+    elName.textContent = hotel.name;
+
+    var elRooms = document.getElementById('rooms');
+    elRooms.textContent = hotel.checkAvailiabilty();
+
+
+> Creat & Access object constructor notation:
+
+  * First, a constructor function defines a template for the hotels. Next, two different instances of this type of hotel object are created. The first represent a hotel called Quay and the second a hotel called Park.
+
+    function Hotel(name, rooms, booked) {
+      this.name = name;
+      this.rooms = roomes;
+      this.booked = booked;
+      this.checkAvaliability = function() {
+        return this.rooms - this.booked;
+      }
+    };
+
+    var quayHotel = new Hotel('Quay', 40, 25);
+    var parkHotel = new Hotel('Park', 120, 77);
+
+    var details1 = quayHotel.name + ' rooms: ';
+      details1 +=  quayHotel.checkAvailability();
+    var elHotel1 = document.getElementById('hotel1');
+    elHotel1.textContent = details1;
+
+    
+    var details2 = quayHotel.name + ' rooms: ';
+      details2 +=  quayHotel.checkAvailability();
+    var elHotel2 = document.getElementById('hotel2');
+    elHotel2.textContent = details2;
+
+> Adding and Removing properties:
+
+  * Once you have created an object(using literal or constructor notation), you can add new properties to it.
+
+    * Example:
+
+  var hotel = {
+    name : 'Park',
+    rooms : 120,
+    booked : 77
+  };
+hotel.gym = true;
+hotel.pool = false;
+delete.hotel.booked;
+
+var elName = document.getElementById('hotel1Name');
+elName.textContent = hotel.name;
+
+var elPool = document.getElementById('pool');
+elPool.ClassName = hotel.pool;
+
+var elGym = document.getElementById('gym'); 
+elGym.className = hotel.gym;
