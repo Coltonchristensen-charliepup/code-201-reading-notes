@@ -1,4 +1,20 @@
-# CHAPTER 9: (LIST, TABLES AND FORMS)
+# CHAPTER 7: (FORMS)
+
+> form structure:
+
+  * Form controls live inside a `<form>` element. This element should always carry the action attribute and will usually have a method and id attrubute too. Action of a form: every `<form>` element requires an action attribute. It's value is the URL for the page on the server that will receive the information in the form when it is submitted. Methods in a form: forms can be sent using one of the two methods: get or post.
+
+    * `<form action="http://www.example.com/subscribe.php" method="get">`
+          `<p> this is where the form controls will appear.</p>`
+      `</form>`   
+
+> text input:
+
+  * The `<input>` element is used to create several different form controls. The value of the type attribute determines what kind of input they will be  creating
+
+    * type="text" when the type attribute has a value of text, it creates a single-line text input. 
+
+## CHAPTER 14: (LIST, TABLES AND FORMS)
 
 > bullet point styles:
 
