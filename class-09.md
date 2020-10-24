@@ -47,15 +47,15 @@
 
   * html: 
 
-  <h1>First edition auctions</h1>
-   <table>
-    <tr>
-      <th>Aurtor</th>
-      <th>Title</th>
-      <th class="money">reserve price</th>
-      <th class="money">current bid</th>
-    </tr>
-  </table>
+  `<h1>First edition auctions</h1>`
+   `<table>`
+    `<tr>`
+      `<th>Aurtor</th>`
+      `<th>Title</th>`
+      `<th class="money">reserve price</th>`
+      `<th class="money">current bid</th>`
+    `</tr>`
+  `</table>`
 
   * css
 
