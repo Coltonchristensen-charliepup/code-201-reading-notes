@@ -32,3 +32,20 @@
   * Where is the problem? First you should try to narrow down the area where the problem seems to be. In a long script, this is especially important. Second you'll wanty to check how far the script is running. Third use breakpoints where things are going wrong.
 
   * Browser dev tools also help a tremendously.
+
+> More console methods:
+
+* to differentiate between types of messages you write to the console, you can use three different methods. They use various icons and/or colors to distinguish them.
+
+  * 1: `console.info();` can be used for general information
+
+  * 2: `console.warn();` can be used for warnings
+
+  * 3: `console.error();` can be used to hold errors.
+
+> Group messaging: 
+
+* If you want to write a set of related data to the console, you can use the `console.group()` method to group the messages together.
+
+* When you have finished writing out the results for the group, to indicate the end of the group the `console.groupEnd()` method is used.
+
