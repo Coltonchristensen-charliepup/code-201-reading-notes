@@ -1,1 +1,4 @@
 # **What google learned about teams**
+
+* Study groups have become a rite of passage at M.B.A. programs, a way for students to practice working in teams and a reflection of the increasing demand for employees who can adroitly navigate group dynamics. A worker today might start the morning by collaborating with a team of engineers, then send emails to colleagues marketing a new brand, then jump on a conference call planning an entirely different product line, while also juggling team meetings with accounting and the party-planning committee. A study, published in The Harvard Business Review last month, found that "the time spent by managers and employees in collaborative activities has ballooned by 50 percent or more" over the last two decades and that, at many companies, more than three-quarters of an employee's day is spent communicating with colleagues.
+
